@@ -49,11 +49,11 @@
 
     "cbro" : {
       "log" : {
-        "url" : "http://crawl.berotato.org/crawl/meta/0.25/logfile",
+        "url" : "http://crawl.berotato.org/crawl/meta/0.26/logfile",
         "file" : "log.cbro.25.games"
       },
       "milestones" : {
-        "url" : "http://crawl.berotato.org/crawl/meta/0.25/milestones",
+        "url" : "http://crawl.berotato.org/crawl/meta/0.26/milestones",
         "file" : "log.cbro.25.milestones"
       },
       "morgue" : "http://crawl.berotato.org/crawl/morgue/%u/morgue-%u-%d.txt",
@@ -63,11 +63,11 @@
 
     "cko" : {
       "log" : {
-        "url" : "https://crawl.kelbi.org/crawl/meta/0.25/logfile",
+        "url" : "https://crawl.kelbi.org/crawl/meta/0.26/logfile",
         "file" : "log.cko.25.games"
       },
       "milestones" : {
-        "url" : "https://crawl.kelbi.org/crawl/meta/0.25/milestones",
+        "url" : "https://crawl.kelbi.org/crawl/meta/0.26/milestones",
         "file" : "log.cko.25.milestones"
       },
       "morgue" : "https://crawl.kelbi.org/crawl/morgue/%u/morgue-%u-%d.txt",
@@ -77,11 +77,11 @@
 
     "cue" : {
       "log" : {
-        "url" : "https://underhound.eu/crawl/meta/0.25/logfile",
+        "url" : "https://underhound.eu/crawl/meta/0.26/logfile",
         "file" : "log.cue.25.games"
       },
       "milestones" : {
-        "url" : "https://underhound.eu/crawl/meta/0.25/milestones",
+        "url" : "https://underhound.eu/crawl/meta/0.26/milestones",
         "file" : "log.cue.25.milestones"
       },
       "morgue" : "https://underhound.eu/crawl/morgue/%u/morgue-%u-%d.txt",

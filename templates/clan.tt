@@ -3,18 +3,18 @@
 <html>
 
 <head>
-  <title>TeamSplat Statistics</title>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="stylesheet" href="default.css" type="text/css">
-  <script type="text/javascript" src="countdown.js"></script>
+  <title>[% clanname %] Statistics</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  <link rel="stylesheet" href="/css/default.css" type="text/css">
+  <script type="text/javascript" src="/js/countdown.js"></script>
 </head>
 
 <body>
 
 <div class="header">
   <h1>
-    <a href="./"><img class="icon" src="favicon.svg"></a>
-    <a href="https://crawl.develz.org/tournament/[% cfg.tournament.version %]/clans/teamsplat-[% cfg.clans.item(clan).members.item(0).lower %].html"
+    <a href="./"><img class="icon" src="/img/irradiate.png"></a>
+    <a href="https://crawl.develz.org/tournament/[% cfg.tournament.version %]/clans/irradiated-dongers-enegeticocto.html"
     >[% cfg.clans.item(clan).name %] Statistics</a>
   </h1>
   <h3
@@ -475,9 +475,6 @@
   [% IF rowcnt == 0; rowcnt = 5; "</tr></tr>"; END %]
 [% END %]
   <td class="summary" colspan="[% rowcnt %]">
-    [% clans.item(clan).uniques.keys.size + 0 %]
-    out of
-    [% cfg.game.uniques.size %]
     killed
   </td>
 </tr>

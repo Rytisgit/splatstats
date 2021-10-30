@@ -98,3 +98,16 @@ Webtiles watch URL.
 
 This section defines game entities: runes, gods and uniques etc. There's no
 need to change this - just use the example.
+
+
+### Running server with autoupdating stats
+
+after setting everything up to grab the current games for the clan and being able to update them with running teamstats.pl
+
+npm install
+
+for the express dependency, then the very simple express server can be started with node server.js, which will start a server at port 6000 with all auto generated files referenced.
+
+To auto update them I use the linux watch command, which can be setup to call teamstats.pl every certain number of seconds.
+
+By running the server and autoupdating the files it should work pretty well.
